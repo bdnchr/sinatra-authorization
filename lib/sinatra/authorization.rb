@@ -26,8 +26,6 @@ module Sinatra
         Sinatra::Default.authorization_realm
       elsif defined? Sinatra::Base.settings.authorization_realm
         Sinatra::Base.settings.authorization_realm
-      else
-        "Application"
       end
     end
 
